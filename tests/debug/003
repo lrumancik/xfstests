@@ -1,0 +1,16 @@
+#! /bin/bash
+# SPDX-License-Identifier: GPL-2.0
+#
+# FS QA Test No. 003
+#
+# A test that should always be skipped
+#
+. ./common/preamble
+_begin_fstest debug
+
+_notrun "Always skip me"
+
+echo "I should be skipped"
+status=0
+exit
+

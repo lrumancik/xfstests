@@ -1,0 +1,17 @@
+#! /bin/bash
+# SPDX-License-Identifier: GPL-2.0
+#
+# FS QA Test No. 004
+#
+# A test that crashes
+#
+. ./common/preamble
+_begin_fstest debug
+
+echo 1 > /proc/sys/kernel/sysrq
+echo c > /proc/sysrq-trigger
+
+echo "I should have crashed by now"
+status=0
+exit
+

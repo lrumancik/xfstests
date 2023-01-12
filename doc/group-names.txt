@@ -39,6 +39,7 @@ dangerous_scrub		fuzzers to evaluate xfs_scrub checking
 data			data loss checkers
 dax			direct access mode for persistent memory files
 db			xfs_db functional tests
+debug			tests with fixed results, used to validate testing setup
 dedupe			FIEDEDUPERANGE ioctl
 defrag			filesystem defragmenters
 dir			directory test functions

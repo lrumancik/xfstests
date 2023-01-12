@@ -1,0 +1,14 @@
+#! /bin/bash
+# SPDX-License-Identifier: GPL-2.0
+#
+# FS QA Test No. 002
+#
+# A test that should always fail
+#
+. ./common/preamble
+_begin_fstest debug
+
+echo "I am intentionally broken"
+status=0
+exit
+

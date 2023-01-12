@@ -1,0 +1,14 @@
+#! /bin/bash
+# SPDX-License-Identifier: GPL-2.0
+#
+# FS QA Test No. 001
+#
+# A test that should always pass
+#
+. ./common/preamble
+_begin_fstest debug
+
+echo "Silence is golden"
+status=0
+exit
+
